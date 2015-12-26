@@ -11,8 +11,6 @@ function createClassDiv(classData) {
 }
 
 function generateClasses() {
-    var classData = JSON.parse(Data);
-
     for (var i = 0; i < classData.classes.length; i++) {
         createClassDiv(classData.classes[i]);
     }
