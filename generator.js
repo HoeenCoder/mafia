@@ -23,8 +23,9 @@ function updateResult() {
 }
 
 function changeClass(element) {
-    if (element.value) {
-        result.classes[element.name] = element.value;
+    var val = parseInt(element.value);
+    if (val) {
+        result.classes[element.name] = val;
     } else if (result.classes[element.name]) {
         delete result.classes[element.name];
     }
