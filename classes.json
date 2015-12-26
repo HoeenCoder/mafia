@@ -1,4 +1,4 @@
-var Data = '{
+var Data = ('{
   "classes": [
     {
       "id": "villager",
@@ -9,4 +9,4 @@ var Data = '{
       "name": "Cop"
     }
   ]
-}';
+}');
