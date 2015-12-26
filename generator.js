@@ -19,7 +19,11 @@ function generateClasses() {
 
 function updateResult() {
     var resultElem = document.getElementById('results');
-    resultElem.innerHTML = JSON.stringify(result);
+    if (Object.keys(result.classes).length) {
+        resultElem.innerHTML = "/mafia new " + JSON.stringify(result);
+    } else {
+        resultElem.innerHTML = "Please select classes to use.";
+    }
 }
 
 function changeClass(element) {
