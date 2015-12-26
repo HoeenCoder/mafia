@@ -9,12 +9,6 @@ h1 {
     text-shadow: 1px 1px 1px #D8D8D8;
 }
 
-textarea {
-    border-radius: 5px;
-    text-align: center;
-    resize: none;
-}
-
 #classes {
     padding: 10px;
     max-width: 60%;
@@ -36,13 +30,19 @@ textarea {
     float: right;
 }
 
-#results {
+#resultdiv {
     border-radius: 5px;
     background-color: #FAFAFA;
     padding: 10px;
     margin: 10px;
     max-width: 60%;
+    text-align: center;
     float: left;
+}
+
+#results {
+    border-radius: 5px;
+    resize: none;
 }
 
 .mafiaclass {
