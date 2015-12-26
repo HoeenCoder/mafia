@@ -1,5 +1,4 @@
-var classesDiv = document.getElementById('classes');
-var settingsDiv = document.getElementById('settings');
+var classesDiv, settingsDiv;
 
 
 function createClassDiv(classData) {
@@ -11,6 +10,8 @@ function createClassDiv(classData) {
 }
 
 function generateClasses() {
+    classesDiv = document.getElementById('classes');
+
     for (var i = 0; i < Data.classes.length; i++) {
         createClassDiv(Data.classes[i]);
     }
