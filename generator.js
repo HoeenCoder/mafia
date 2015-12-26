@@ -5,7 +5,7 @@ var result = {classes: {}, settings: {}};
 function createClassDiv(classData) {
     var classDiv = document.createElement('div');
     classDiv.setAttribute('class','mafiaclass');
-    classDiv.innerHTML = '<div style="text-align:center;"><img src="images/' + classData.id + '.png"></div><div class="classname">' + classData.name + '</div><input type="number" name="' + classData.id + '" value="0" min="0" max="25"></div>';
+    classDiv.innerHTML = '<div style="text-align:center;"><img src="images/' + classData.id + '.png"></div><div class="classname">' + classData.name + '</div><input type="number" onchange="changeClass(this)" name="' + classData.id + '" value="0" min="0" max="25"></div>';
     classesDiv.appendChild(classDiv);
 }
 
