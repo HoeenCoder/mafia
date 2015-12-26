@@ -9,6 +9,15 @@ h1 {
     text-shadow: 1px 1px 1px #D8D8D8;
 }
 
+textarea {
+    border-radius: 5px;
+    background-color: #FAFAFA;
+    padding: 10px;
+    margin: 5px;
+    max-width: 60%;
+    float: left;
+}
+
 #classes {
     padding: 10px;
     max-width: 60%;
@@ -42,7 +51,5 @@ h1 {
 
 .classname {
     font-weight: bold;
-    margin-left: 10px;
-    width: 80%;
     text-align: center;
 }
