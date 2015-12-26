@@ -24,9 +24,9 @@ function updateResult() {
 
 function changeClass(element) {
     if (element.value) {
-        result.settings[element.name] = element.value;
-    } else if (result.settings[element.name]) {
-        delete result.settings[element.name];
+        result.classes[element.name] = element.value;
+    } else if (result.classes[element.name]) {
+        delete result.classes[element.name];
     }
 
     updateResult();
