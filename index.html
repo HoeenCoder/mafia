@@ -6,14 +6,13 @@
 		<title>PS Mafia game generator</title>
 	</head>
 
-    <script src="generator.js" async="yes" type="text/javascript" />
+	<script src="classes.json" type="text/javascript" />
+    <script src="generator.js" type="text/javascript" />
 
-    <body>
+    <body onload="generateClasses()">
         <h1>Pokémon Showdown Mafia Game Generator</h1>
 
-        <div id="classes">
-            Classes go here.
-        </div>
+        <div id="classes"></div>
 
         <div id="settings">
             Settings go here
