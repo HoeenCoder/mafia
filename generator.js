@@ -11,7 +11,7 @@ function createClassDiv(classData) {
 }
 
 function generateClasses() {
-    for (var i = 0; i < classData.classes.length; i++) {
-        createClassDiv(classData.classes[i]);
+    for (var i = 0; i < Data.classes.length; i++) {
+        createClassDiv(Data.classes[i]);
     }
 }
