@@ -11,11 +11,7 @@ h1 {
 
 textarea {
     border-radius: 5px;
-    background-color: #FAFAFA;
-    padding: 10px;
-    margin: 5px;
-    max-width: 60%;
-    float: left;
+    text-align: center;
     resize: none;
 }
 
@@ -38,6 +34,15 @@ textarea {
     border-radius: 5px;
     background-color: #FAFAFA;
     float: right;
+}
+
+#results {
+    border-radius: 5px;
+    background-color: #FAFAFA;
+    padding: 10px;
+    margin: 10px;
+    max-width: 60%;
+    float: left;
 }
 
 .mafiaclass {
