@@ -1,6 +1,7 @@
 body {
     font-family: Verdana,Helvetica,Arial,sans-serif;
     font-size: 8pt;
+    background: transparent -moz-linear-gradient(center top , #E8EEFC, #D7DEEA) repeat scroll 0% 0%
 }
 
 h1 {
@@ -13,6 +14,7 @@ h2 {
     text-align: center;
     font-size: 13pt;
     text-shadow: 1px 1px 1px #D8D8D8;
+	margin: 2px 0px 4px;
 }
 
 #classes {
@@ -21,24 +23,25 @@ h2 {
     max-height: 70%;
     overflow: auto;
     border-radius: 5px;
-    background-color: #FAFAFA;
+    background-color: rgba(250, 250, 250, 0.7);
     float: left;
 }
 
 #settings {
     padding: 10px;
+    min-width: 20%;
     max-width: 35%;
     max-height: 90%;
     margin: 5px;
     overflow: auto;
     border-radius: 5px;
-    background-color: #FAFAFA;
+    background-color: rgba(250, 250, 250, 0.7);
     float: right;
 }
 
 #resultdiv {
     border-radius: 5px;
-    background-color: #FAFAFA;
+    background-color: rgba(250, 250, 250, 0.7);
     padding: 10px;
     margin: 10px;
     max-width: 60%;
@@ -52,7 +55,7 @@ h2 {
 }
 
 .mafiaclass {
-    background-color: #F2F4F6;
+    background-color: #E0E3E7;
     border: 1px solid #BCD;
     border-radius: 10px;
     max-width: 50%;
