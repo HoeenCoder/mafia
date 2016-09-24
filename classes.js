@@ -23,6 +23,22 @@ var Data = {
     {
       "id": "werewolf",
       "name": "Werewolf"
+    },
+    {
+      "id": "mayor",
+      "name": "Mayor"
+    },
+    {
+      "id": "godfather",
+      "name": "Godfather"
+    },
+    {
+      "id": "fool",
+      "name": "Fool"
+    },
+    {
+      "id": "goon",
+      "name": "Goon"
     }
   ]
 };
