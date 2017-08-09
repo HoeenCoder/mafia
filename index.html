@@ -8,19 +8,23 @@
 		<title>PS Mafia game generator</title>
 	</head>
 
-    <body onload="generateClasses()">
-        <h1>Pokémon Showdown Mafia Game Generator</h1>
+    <body onload="generate()">
+        <h1>Pok&eacute;mon Showdown Mafia Game Generator</h1>
 
-        <div id="classes"></div>
+        <div id="addRole"></div>
+        
+        <h3>Current Roles:</h3>
+        <div id="roles"></div>
 
         <div id="settings">
 			<h2>Settings:</h2>
             <p><input type="checkbox" name="allowWills" value="true" onchange="changeSetting(this)"> Allow Wills</p>
 			<p><input type="checkbox" name="anonVotes" value="true" onchange="changeSetting(this)"> Anonymous voting</p>
+			<p><input type="checkbox" name="closedSetup" value="true" onchange="changeSetting(this)"> Closed Setup</p>
         </div>
 
 		<div id="resultdiv">
-			<textarea rows="10" cols="100" readonly="true" onclick="this.select()" id="results">Select classes and settings you wish to use.</textarea>
+			<textarea rows="10" cols="100" readonly="true" onclick="this.select()" id="results">Add roles and choose settings you wish to use.</textarea>
 		</div>
     </body>
 </html>
